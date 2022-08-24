@@ -1,0 +1,107 @@
+.wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: all 300ms ease-in-out;
+}
+.wrapper:hover {
+  transform: scale(1.04);
+}
+.container {
+  display: flex;
+  overflow: hidden;
+}
+.left {
+  flex: 0.6;
+}
+.left img {
+  width: 100%;
+  display: block;
+  height: 300px;
+}
+.right {
+  background: #0f3d3e;
+  flex: 0.7;
+  padding: 10px;
+  color: white;
+  height: 280px;
+  overflow: scroll;
+  position: relative;
+}
+
+.right img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+.right p {
+  margin-right: 5px;
+  font-size: 14px;
+}
+.profileInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.blogContent {
+  text-align: left !important;
+  min-height: 206px;
+  padding: 10px 15px;
+}
+.blogContent h1 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.likes {
+  /* text-align: right !important; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+.likes svg {
+  margin-right: 8px;
+  cursor: pointer;
+}
+.liked {
+  color: #ff4a4a;
+}
+@media (min-width: 375px) and (max-width: 667px) {
+  .right p {
+    font-size: 13px;
+  }
+  .blogContent h1 {
+    font-size: 20px;
+  }
+  .header .icons svg {
+    font-size: 20px;
+  }
+  .header .icons .small small {
+    padding: 0 6px;
+  }
+  .likes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    position: sticky;
+    bottom: 0px;
+    background: #00000082;
+    width: 44px;
+    border-radius: 5px;
+  }
+}
+@media only screen and (min-width: 667px) and (max-width: 736px) {
+  .likes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    position: sticky;
+    bottom: -5px;
+    background: #00000082;
+    width: 44px;
+    border-radius: 5px;
+    margin: 0px 292px;
+  }
+}

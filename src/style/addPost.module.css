@@ -1,0 +1,139 @@
+.addPost {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  background: #0f3d3e;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  width: 40vw;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+}
+.right {
+  flex: 0.4;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+}
+.top {
+  margin-bottom: 10px;
+  color: white;
+}
+.top img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.input textarea {
+  border: 1px solid white;
+  outline: none;
+  border-radius: 8px;
+  padding: 4px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+.input input {
+  padding: 8px 10px;
+  width: 80%;
+  border-radius: 8px;
+  border: 1px solid white;
+  outline: none;
+  margin-bottom: 10px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+.input input::placeholder {
+  font-weight: bold;
+  opacity: 0.6;
+  color: white;
+  font-size: 16px;
+}
+.input textarea::placeholder {
+  font-weight: bold;
+  opacity: 0.6;
+  color: white;
+  font-size: 16px;
+}
+.right img {
+  width: 150px;
+  height: 150px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.right input {
+  display: none;
+}
+.right label {
+  cursor: pointer;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+.right label svg {
+  font-size: 30px;
+  color: white;
+}
+.box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+}
+.circle {
+  position: absolute;
+}
+.uploadBtn {
+  padding: 6px 45px;
+  background: #4caf50;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Poppins';
+  border-radius: 10px;
+  cursor: pointer;
+}
+.uploadBtn:active {
+  background-color: #7cb47e;
+}
+@media (min-width: 375px) and (max-width: 667px) {
+  .addPost {
+    width: 88vw;
+  }
+  .input textarea {
+    width: 180px;
+    height: 163px;
+  }
+  .input textarea::placeholder {
+    font-size: 14px;
+  }
+  .input input::placeholder {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 667px) and (max-width: 736px) {
+  .addPost {
+    width: 77vw;
+  }
+}
+@media only screen and (min-width: 736px) and (max-width: 936px) {
+  .addPost {
+    width: 77vw;
+  }
+}

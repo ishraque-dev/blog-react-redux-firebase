@@ -1,0 +1,51 @@
+.home {
+}
+.header {
+  color: #0f3d3e;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.header .icons {
+  position: relative;
+}
+.header .icons svg {
+  font-size: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.container {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.header .icons .small {
+  position: absolute;
+
+  bottom: -12px;
+  left: -8px;
+}
+.header .icons .small small {
+  padding: 0 10px;
+}
+@media (min-width: 375px) and (max-width: 667px) {
+  .header h1,
+  h2 {
+    font-size: 20px;
+  }
+  .header {
+    padding: 10px 10px;
+  }
+  .header .icons svg {
+    font-size: 20px;
+  }
+  .header .icons .small small {
+    padding: 0 6px;
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+}

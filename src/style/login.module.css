@@ -1,0 +1,29 @@
+.login {
+  background-color: #f1f1f1;
+  height: 40vw;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 18px;
+  box-shadow: rgb(255, 244, 244) 0px 2px 8px 0px;
+  text-align: center;
+}
+.buttonSubmit {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background: #0f3d3e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media (min-width: 375px) and (max-width: 667px) {
+  .login {
+    height: 126vw;
+    width: 100%;
+  }
+}
