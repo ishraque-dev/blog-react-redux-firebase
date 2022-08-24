@@ -62,12 +62,15 @@ export default function AddPostModal({
           case 'running':
             console.log('Upload is running');
             break;
+          default:
+            console.log('Upload ');
         }
       },
       (error) => {
         //  A full list of error codes is available at
         //firebase.google.com/docs/storage/web/handle-errors
-        https: switch (error.code) {
+
+        switch (error.code) {
           case 'storage/unauthorized':
             // User doesn't have permission to access the object
             break;
@@ -78,6 +81,8 @@ export default function AddPostModal({
           case 'storage/unknown':
             // Unknown error occurred, inspect error.serverResponse
             break;
+          default:
+            console.log('Unknown');
         }
       },
       () => {
