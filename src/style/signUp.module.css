@@ -21,7 +21,7 @@
   font-weight: bold;
   cursor: pointer;
 }
-@media (min-width: 375px) and (max-width: 667px) {
+@media (min-width: 300px) and (max-width: 667px) {
   .signup {
     height: 126vw;
     width: 100%;

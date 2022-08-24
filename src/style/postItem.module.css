@@ -66,7 +66,7 @@
 .liked {
   color: #ff4a4a;
 }
-@media (min-width: 375px) and (max-width: 667px) {
+@media (min-width: 300px) and (max-width: 667px) {
   .right p {
     font-size: 13px;
   }

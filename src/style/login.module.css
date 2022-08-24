@@ -21,7 +21,7 @@
   font-weight: bold;
   cursor: pointer;
 }
-@media (min-width: 375px) and (max-width: 667px) {
+@media (min-width: 300px) and (max-width: 667px) {
   .login {
     height: 126vw;
     width: 100%;

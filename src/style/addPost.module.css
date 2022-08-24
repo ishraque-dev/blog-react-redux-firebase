@@ -112,12 +112,12 @@
 .uploadBtn:active {
   background-color: #7cb47e;
 }
-@media (min-width: 375px) and (max-width: 667px) {
+@media (min-width: 300px) and (max-width: 667px) {
   .addPost {
     width: 88vw;
   }
   .input textarea {
-    width: 180px;
+    width: 130px;
     height: 163px;
   }
   .input textarea::placeholder {
